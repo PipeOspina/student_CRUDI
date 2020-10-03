@@ -1,0 +1,173 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #ededed;
+}
+h1 {
+    font-family: 'arial';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+h1{
+	font-size: 26px;
+}
+
+p{
+	font-family: 'arial';
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 20px;
+}
+a{
+	text-decoration: none;
+	font-family: 'arial';
+	letter-spacing: 1px;
+}
+span {
+    font-family: 'GothamBook';
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*****************************************************************/
+
+.form_register{
+	width: 450px;
+	margin: auto;
+}
+.form_register h1{
+	color: #BF452B
+	;
+}
+hr{
+	border: 0;
+	background: #CCC;
+	height: 1px;
+	margin: 10px 0;
+	display: block;
+}
+form{
+	background: #FFF;
+	margin: auto;
+	padding: 20px 50px;
+	border: 1px solid #d1d1d1;
+}
+label{
+	display: block;
+	font-size: 12pt;
+	font-family: 'GothamBook';
+	margin: 15px auto 5px auto;
+}
+input,select{
+	display: block;
+	width: 100%;
+	font-size: 11pt;
+	padding: 5px;
+	border: 1px solid #85929e;
+	border-radius: 5px;
+}
+.notItemOne option:first-child{
+	display: none;
+}
+.btn_save{
+	font-size: 12pt;
+	background:#BF452B	;
+	padding: 10px;
+	color: #FFF;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+	margin: 15px auto;
+}
+.alert{
+	width: 100%;
+	background: #66e07d66;
+	border-radius: 6px;
+	margin: 20px auto;
+}
+.msg_error{
+	color: #e65656;
+}
+.msg_save{
+	color: #126e00;
+}
+.alert p{
+	padding: 10px;
+}
+/*-------------------tabla de registros----------------*/
+#container h1{
+	font-size:35px ;
+	display: inline-block;
+
+}
+.btn_new{
+	display: inline-block;
+	background: #BF452B;
+	color: #FFF;
+	padding: 5px 25px;
+	border-radius: 4px;
+	margin: 20px;
+	
+}
+table{
+	border-collapse: collapse;
+	font-size: 12px;
+	font-family:'arial';
+	width: 100%;
+}
+table th{
+	text-align: left;
+	padding: 10px;
+	background: #BF452B;
+	color: #FFF;	
+
+}
+table tr:nth-child(odd){
+	background: #FFF;
+}
+table td{
+	padding: 10px;
+}
+.link_edit{
+	color: #0ca4ce;
+}
+.link_delete{
+	color: #f26b6b;
+}
+.data_delete{
+	text-align: center;
+}
+.data_delete h2{
+	font-size: 12pt;
+}
+.data_delete span{
+	font-weight: bold;
+	font-size: 12pt;
+	color:#BF452B
+	
+}
+.btn_cancel,.btn_ok{
+	width: 125px;
+	background:#BF452B ;
+	color: #FFF;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 15px;
+
+}
+.btn_cancel{
+	background:#42b343 ;
+}
+.data_delete form{
+	background: initial;
+	margin: auto;
+	padding: 20px 50 px;
+	border: 1px solid #d1d1d1;
+}
